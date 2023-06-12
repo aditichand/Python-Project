@@ -2,37 +2,35 @@
 
 ## Loan Defaulter Prediction Models
 
-Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.
+Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.<br>
 
-**Problem Statement** 
+**Problem Statement** <br>
 Ensemble a machine learning model using various algorithms to compare and predict a customer's loan eligibility based on various parameters
 
-**Introduction**
+**Introduction**<br>
 This case is about a bank which has a growing customer base. Most of these customers are depositors. The number of borrowers is quite small, and the bank is interested in expanding their base to bring more loan business and, in the process, earn more through the interest on loans. The management wants to explore potential loan customers. The department wants to build a model that will help them to identify those potential customers who have a higher probability of getting approved for and repaying the loan so that it will increase their success ratio while keeping risks to a minimum.
 
-
-**Motivation** 
+**Motivation** <br>
 Loan defaulting is a significant financial risk for the banking industry as it damages the interests of lenders and breaks the social trust. Researchers have made extensive effort into developing efficient machine learning techniques to help regulators carry out an accurate loan approval process in real-time. Through our effort in this project, we hope to create and identify a model that can best help discern potential defaulters.
 
 
-**Dataset Description**
-
+**Dataset Description**<br>
 The data set used includes 1,25,000 observations with eighteen key variables and among them we have identified four different measurement categories (Loan Status, Term, Home Ownership, Purpose) and converted them into categorial variables. Our independent variable is **Loan Status**, as we want to see what factors are likely to determine whether a loan will be paid off or not, and this pattern of factors can be used for the evaluation of loan approvals in the future.<br>
 
 We divided the data set in a split of Test and Train in 20% and 80% respectively<br> 
-
 Total Dataset Entries: 1,25,000 Rows x 18 Columns<br>
 Test Dataset Entries: 25,000 Rows x 16 Columns<br>
 Train Dataset Entries: 1,00,000 Rows x 16 Columns<br>
 Data Source: https://www.kaggle.com/code/manarkandeel/bank-loans-logistic-regression-knn/data<br>
 
-_Transforming the incorrect data:_
+_Transforming the incorrect data:_<br>
 In our data set we have observed that 4540 rows have credit score greater than 800. This is not possible since maximum credit score is 800.
 The 4540 rows have credit score greater than 800 were mistakenly multiplied by 10 and hence the error had occurred on our dataset, we therefore transformed the following rows of data by dividing the faulty credit score it by 10 and thereby correcting the data of the rows.
  
 _Imputing the Missing Values:_<br>
-Next, we identified the rows with missing values. Missing values can be replaced by the minimum, maximum or average value of that Attribute. Zero can also be used to replace missing values. Any replenishment value can also be specified as a replacement of missing values. We identified 19111 rows with missing “Credit Score”, “Years in current job” and “Annual Income”. Since, it is one of our KPI’s and is essential for our analysis. A reliable machine learning modeling demands for careful handling of missing data and hence we try to replace the values with logic.
-Since the dataset consists of great outliers for “Annual Income”, we have chosen replacement by median to imputing the missing values for “Annual Income” and the “Credit Score”<br>
+Next, we identified the rows with missing values. Missing values can be replaced by the minimum, maximum or average value of that Attribute. Zero can also be used to replace missing values. Any replenishment value can also be specified as a replacement of missing values. We identified 19111 rows with missing “Credit Score”, “Years in current job” and “Annual Income”. Since, it is one of our KPI’s and is essential for our analysis. A reliable machine learning modeling demands for careful handling of missing data and hence we try to replace the values with logic.<br>
+<br>
+Since the dataset consists of great outliers for “Annual Income”, we have chosen replacement by median to imputing the missing values for “Annual Income” and the “Credit Score.”<br>
 “Years in current job” the data is observed to be skewed, and hence it is good to consider using Mode values for imputing missing data with Mode values for the data in “Years in current job”.
 
 _Preprocessing and Encoding Categorical Data:_<br>
