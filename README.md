@@ -5,7 +5,7 @@
 _Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.<br>_
 
 **Problem Statement** <br>
-Ensemble a machine learning model using various algorithms to compare and predict a customer's loan eligibility based on various parameters
+Assemble a machine learning model using various algorithms to compare and predict a customer's loan eligibility based on various parameters
 
 **Introduction**<br>
 This case is about a bank which has a growing customer base. Most of these customers are depositors. The number of borrowers is quite small, and the bank is interested in expanding their base to bring more loan business and, in the process, earn more through the interest on loans. The management wants to explore potential loan customers. The department wants to build a model that will help them to identify those potential customers who have a higher probability of getting approved for and repaying the loan so that it will increase their success ratio while keeping risks to a minimum.
