@@ -4,14 +4,14 @@
 
 _Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.<br>_
 <ol>
-<li>[Problem Statement](https://github.com/aditichand/Python-Project/blob/main/README.md#problem-statement)</li>
-<li>[Introduction](https://github.com/aditichand/Python-Project/blob/main/README.md#introduction)</li>
-<li>[Dataset Description](https://github.com/aditichand/Python-Project/blob/main/README.md#dataset-description)</li>
-<li>[Data Wrangling](https://github.com/aditichand/Python-Project/blob/main/README.md#data-wrangling)</li>
-<li>[Running Initial Models](https://github.com/aditichand/Python-Project/blob/main/README.md#running-initial-models)</li>
-<li>[Hyperparameter Tuning](https://github.com/aditichand/Python-Project/blob/main/README.md#hyperparameter-tuning)</li>
+<li> [Problem Statement](https://github.com/aditichand/Python-Project/blob/main/README.md#problem-statement) </li>
+<li> [Introduction](https://github.com/aditichand/Python-Project/blob/main/README.md#introduction) </li>
+<li> [Dataset Description](https://github.com/aditichand/Python-Project/blob/main/README.md#dataset-description) </li>
+<li> [Data Wrangling](https://github.com/aditichand/Python-Project/blob/main/README.md#data-wrangling) </li>
+<li> [Running Initial Models](https://github.com/aditichand/Python-Project/blob/main/README.md#running-initial-models) </li>
+<li> [Hyperparameter Tuning](https://github.com/aditichand/Python-Project/blob/main/README.md#hyperparameter-tuning) </li>
 <li>[Conclusion](https://github.com/aditichand/Python-Project/blob/main/README.md#conclusion)</li>
-<ol>
+</ol>
  
 ### Problem Statement 
 Assemble a machine learning model using various algorithms to compare and predict a customer's loan eligibility based on various parameters
