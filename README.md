@@ -2,7 +2,7 @@
 
 ## Loan Defaulter Prediction Models
 
-Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.<br>
+_Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.<br>_
 
 **Problem Statement** <br>
 Ensemble a machine learning model using various algorithms to compare and predict a customer's loan eligibility based on various parameters
