@@ -4,6 +4,14 @@
 
 _Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Machine Learning course. The dataset and case description were chosen by the team.<br>_
 
+[Problem Statement](https://github.com/aditichand/Python-Project/blob/main/README.md#problem-statement)
+[Introduction](https://github.com/aditichand/Python-Project/blob/main/README.md#introduction)
+[Dataset Description](https://github.com/aditichand/Python-Project/blob/main/README.md#dataset-description)
+[Data Wrangling](https://github.com/aditichand/Python-Project/blob/main/README.md#data-wrangling)
+[Running Initial Models](https://github.com/aditichand/Python-Project/blob/main/README.md#running-initial-models)
+[Hyperparameter Tuning](https://github.com/aditichand/Python-Project/blob/main/README.md#hyperparameter-tuning)
+[Conclusion](https://github.com/aditichand/Python-Project/blob/main/README.md#conclusion)
+
 ### Problem Statement 
 Assemble a machine learning model using various algorithms to compare and predict a customer's loan eligibility based on various parameters
 
@@ -23,6 +31,8 @@ Test Dataset Entries: 25,000 Rows x 16 Columns<br>
 Train Dataset Entries: 1,00,000 Rows x 16 Columns<br>
 Data Source: https://www.kaggle.com/code/manarkandeel/bank-loans-logistic-regression-knn/data<br>
 
+### Data Cleaning
+<br>
 #### _Transforming the incorrect data_
 In our data set we have observed that 4540 rows have credit score greater than 800. This is not possible since maximum credit score is 800.
 The 4540 rows have credit score greater than 800 were mistakenly multiplied by 10 and hence the error had occurred on our dataset, we therefore transformed the following rows of data by dividing the faulty credit score it by 10 and thereby correcting the data of the rows.
