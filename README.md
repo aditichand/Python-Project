@@ -24,7 +24,7 @@ This case is about a bank which has a growing customer base. Most of these custo
 Loan defaulting is a significant financial risk for the banking industry as it damages the interests of lenders and breaks the social trust. Researchers have made extensive effort into developing efficient machine learning techniques to help regulators carry out an accurate loan approval process in real-time. Through our effort in this project, we hope to create and identify a model that can best help discern potential defaulters.
 
 
-### Dataset Description**
+### Dataset Description
 The data set used includes 1,25,000 observations with eighteen key variables and among them we have identified four different measurement categories (Loan Status, Term, Home Ownership, Purpose) and converted them into categorial variables. Our independent variable is **Loan Status**, as we want to see what factors are likely to determine whether a loan will be paid off or not, and this pattern of factors can be used for the evaluation of loan approvals in the future.<br>
 
 We divided the data set in a split of Test and Train in 20% and 80% respectively<br> 
@@ -34,8 +34,8 @@ Train Dataset Entries: 1,00,000 Rows x 16 Columns<br>
 Data Source: https://www.kaggle.com/code/manarkandeel/bank-loans-logistic-regression-knn/data<br>
 
 ### Data Cleaning
-<br>
-#### _Transforming the incorrect data_
+
+#### _Transforming the Incorrect data_
 In our data set we have observed that 4540 rows have credit score greater than 800. This is not possible since maximum credit score is 800.
 The 4540 rows have credit score greater than 800 were mistakenly multiplied by 10 and hence the error had occurred on our dataset, we therefore transformed the following rows of data by dividing the faulty credit score it by 10 and thereby correcting the data of the rows.
  
